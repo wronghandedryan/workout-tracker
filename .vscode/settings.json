@@ -1,0 +1,17 @@
+{
+    "cSpell.language": "en,en-US",
+    "cSpell.enableFiletypes": [
+        "csv",
+        "db",
+        "eno",
+        "env",
+        "ignore",
+        "jsonl",
+        "mongodb",
+        "mongodbrunner",
+        "sql",
+        "sqlite",
+        "styled-css",
+        "svg"
+    ]
+}
