@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/api', async (req, res) => {
+router.get('../public/js', async (req, res) => {
 	const posts = await exercise.find();
 	res.send(posts);
 });
 
 
-
-
-
-module.exports = router;
+module.exports = {
+	api: apiRoutes,
+	html: htmlRoutes,
+};
